@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.heading1{
+    padding-top: 40px;
+    font-size: 20pt;
+    color: #4038B5;
+    font-weight: 700;
+}
+.strongHead{
+    color: red;
+    
+}
+.strongHeadMain{
+    font-size: 30pt;
+    font-weight: 700;
+}
+.textBe{
+    font-size: 15pt;
+}
+#button1{
+    margin-left: 35%;
+    margin-top: 20px;
+   
+}
+.spText{
+    color: #000;
+    width: 150px;
+    font-weight: 600;
+}
+.about-us{
+    font-weight: 700;
+}
+.aboutParticipation{
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    
+    border: 2px solid yellow;
+    
+}
+
+
+.abcd{
+    font-weight: 600;
+    font-size: 13pt;
+    padding-top: 10px;
+}
