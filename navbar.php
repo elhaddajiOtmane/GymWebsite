@@ -31,7 +31,7 @@
                                 class="fas fa-home" style="padding-right: 5px;"></i>Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-links" aria-current="page" href="#"><i
+                        <a class="nav-link active" id="nav-links" aria-current="page" href="contactus.php"><i
                                 class="fas fa-phone-alt" style="padding-right: 5px; "></i>Contact-Us</a>
                     </li>
                     <li class="nav-item">
@@ -39,8 +39,7 @@
                                 class="far fa-images" style="padding-right: 5px; "></i>Gallery</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-links" aria-current="page" href="#"><i
-                                class="fas fa-bell" style="padding-right: 5px; "></i>Notification</a>
+                        <a class="nav-link active" id="nav-links" aria-current="page" href="joinMember.php"><i class="fas fa-user" style="padding-right: 5px;"></i>Join</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active" id="nav-links" aria-current="page" href="loginPage.php"><i

@@ -20,35 +20,22 @@
 <!--body of the reg. form-->
 <section class="jumbotron bg-warning rounded-0" style="height:80vh;font-family: 'Nunito', sans-serif;">
   <div class="container" style="margin-top:-40px;">
-    <h3 class="text-center text-white font-weight-bold mb-4" data-aos="fade-up">Member Registration</h3>
+    <h3 class="text-center text-white font-weight-bold mb-4" data-aos="fade-up">Send the following Information</h3>
     <div class="row">
       <div class="col-lg-10 offset-md-1">
         <div class="card bg-white">
           <div class="card-body">
             <!-- ----------form-start------- -->
-            <form>
+            <form method="POST" action="joinMember.php">
               <div class="form-group row">
-                  <label for="firstname" class="col-lg-4 col-form-label font-weight-bold">First Name</label>
-                  <div class="col-lg-8">
-                      <input type="text" class="form-control bg-light" id="firstname" name="firstname">
-                  </div>
-              </div>
-
-              <div class="form-group row">
-                  <label for="firstname" class="col-lg-4 col-form-label font-weight-bold">Middle Name</label>
+                  <label for="firstname" class="col-lg-4 col-form-label font-weight-bold">Name</label>
                   <div class="col-lg-8">
                       <input type="text" class="form-control bg-light" id="firstname" name="name">
                   </div>
               </div>
 
 
-              <div class="form-group row">
-                  <label for="lastname" class="col-lg-4 col-form-label font-weight-bold">Last Name</label>
-                  <div class="col-lg-8">
-                      <input type="text" class="form-control bg-light" id="lastname" name="lastname">
-                  </div>
-              </div>
-
+             
               <div class="form-group row">
                   <label for="emailid" class="col-lg-4 col-form-label font-weight-bold">Email</label>
                   <div class="col-lg-8">
@@ -71,39 +58,12 @@
                    </div>
                </div>
 
-               <div class="form-group row">
-                   <label for="current-address" class="col-lg-4 col-form-label font-weight-bold">Current Address</label>
-                   <div class="col-lg-8">
-                       <input type="text" class="form-control bg-light" id="c-address" name="c-address">
-                   </div>
-               </div>
-
-               <div class="form-group row">
-                <label for="exampleFormControlSelect1" class="col-lg-4 col-form-label font-weight-bold">Gender</label>
-               <div class="col-lg-8">
-                <select class="form-control bg-light" id="exampleFormControlSelect1">
-                  <option>--Select--</option>
-                  <option>Male</option>
-                  <option>Female</option>
-                </select>
-               </div>
-              </div>
-              <div class="form-group row">
-                   <label for="adharno" class="col-lg-4 col-form-label font-weight-bold">Adhaar No</label>
-                   <div class="col-lg-8">
-                       <input type="number" class="form-control bg-light" id="anumber" name="anumber">
-                   </div>
-               </div>
-               <div class="form-group row">
-                   <label for="user-photo" class="col-lg-4 col-form-label font-weight-bold">Add Photo</label>
-                   <div class="col-lg-8">
-                       <input type="file" class="form-control bg-light" id="user-pic" name="user-pic">
-                   </div>
-               </div>
+               
+             
                <br>
               <div class="form-group row">
                   <div class="offset-md-5 col-md-7">
-                      <button type="submit" class="btn btn-primary">Register</button>
+                      <button type="submit" name="submit" class="btn btn-primary">Join</button>
                   </div>
               </div>
           </form>
@@ -124,3 +84,44 @@
 </script>
 </body>
 </html>
+
+
+<?php 
+    include 'connection.php';
+    if(isset($_POST['submit']))
+    {
+
+
+          $name = $_POST['name'];
+          $emailid = $_POST['emailid'];
+          $phone = $_POST['phone'];
+          $address = $_POST['address'];
+
+          $sql = "INSERT INTO join_members(name, email, phone, address)VALUES('$name', '$emailid' ,'$phone', '$address')";
+
+          $res = mysqli_query($conn, $sql);
+
+            if($res)
+            {
+                ?>
+                <script>
+                    alert("Yahooo! Your Record is Submitted");
+                </script>
+                <?php
+            }else{
+                ?>
+                <script>
+                    alert("Ohh No!!!!  Your Record is not Submitted");
+                </script>
+                <?php
+            }
+
+
+
+
+    }
+
+
+
+
+?>

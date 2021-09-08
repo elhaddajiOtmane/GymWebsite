@@ -126,18 +126,10 @@
 
 
 
-    <!-- --------------maps start------------------- -->
-    <div class="container">
-        <div class="row">
-            <div class="col Google_Maps">
-                <h1>This is for google maps</h1>
-            </div>
-        </div>
-    </div>
+    
 
 
-    </div>
-
+    <?php include 'footer.php'; ?>
 
 
 
