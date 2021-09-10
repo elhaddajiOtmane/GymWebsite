@@ -33,19 +33,19 @@
             <div class="col-lg-10 offset-md-1">
               <div class="card bg-white">
                 <div class="card-body">
-                  <form>
-                    <div class="form-group row">
-                        <label for="Notice" class="col-lg-4 col-form-label font-weight-bold" style="font-size:1rem;  font-family: 'Nunito', sans-serif;">Notice</label>
-                        <div class="col-lg-8">
-                        <textarea class="form-control bg-light" id="notice" name="notice" rows="6"></textarea>
-                        </div>
-                    </div>
-                     <br>
-                    <div class="form-group row">
-                        <div class="offset-md-5 col-md-7">
-                            <button type="submit" class="btn btn-primary">Register</button>
-                        </div>
-                    </div>
+                  <form method="POST" action="addnotice.php">
+                      <div class="form-group row">
+                          <label for="Notice" class="col-lg-4 col-form-label font-weight-bold" style="font-size:1rem;  font-family: 'Nunito', sans-serif;">Notice</label>
+                          <div class="col-lg-8">
+                          <textarea class="form-control bg-light" name="notice" rows="6"></textarea>
+                          </div>
+                      </div>
+                      <br>
+                      <div class="form-group row">
+                          <div class="offset-md-5 col-md-7">
+                              <button type="submit" name="submit" class="btn btn-primary">POST</button>
+                          </div>
+                      </div>
                 </form>
                </div>
                 <div class="col-12 col-md">
@@ -54,5 +54,89 @@
              </div>
              </div>
       </section>
+
+
+      <!-- -----------notice table part---------- -->
+
+      <div class="container" style="height: 400px; margin-top: 30px;">
+      <div class="row">
+        <div class="col text-center">
+          <h1>Notices</h1>
+        </div>
+      </div>
+        <div class="row">
+          <div class="col-md-2"></div>
+          <div class="col-md-8">
+            <table class="table">
+              <tr>
+                 
+                 <th>ID</th>
+                 <th>Notice</th> 
+                      
+                 <th colspan="2">Operation</th>
+              </tr>
+  
+              <?php
+              
+              include 'connection.php';
+              
+              
+              $selectquery = "select * from notice";
+              $query = mysqli_query($conn, $selectquery);
+              $num = mysqli_num_rows($query);
+              while($res = mysqli_fetch_array($query))
+              {
+                  ?>
+                  <tr>
+                  
+                  <td><?php echo $res['id'] ?></td>   
+                  <td><?php echo $res['notice'] ?></td>                
+                  
+                  
+                  
+                  <td><a href="update.php?id=<?php echo $res['id']; ?>"><i class="fas fa-edit" style="color:green"></i></a></td>
+                  <td><i class="fas fa-trash-alt" style="color:red"></i></td> 
+                  
+              </tr>
+                  
+  
+           <?php   
+          }
+          ?>
+             
+              
+          </table>
+            
+
+          </div>
+          <div class="col-md-2"></div>
+        </div>
+      </div>
 </body>
 </html>
+<?php
+  include 'connection.php';
+  if(isset($_POST['submit'])){
+
+    $notice = $_POST['notice'];
+
+    $sql = "INSERT INTO notice(notice)VALUES('$notice')";
+    $res = mysqli_query($conn, $sql);
+
+    if($res)
+    {
+        ?>
+        <script>
+            alert("Notice Posted Successfully");
+        </script>
+        <?php
+    }else{
+        ?>
+        <script>
+            alert("Notice is not Posted");
+        </script>
+        <?php
+    }
+  }
+
+?>

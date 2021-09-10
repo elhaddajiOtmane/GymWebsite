@@ -20,7 +20,7 @@
 <!--body of the reg. form-->
 <section class="jumbotron bg-warning rounded-0" style="height:80vh;font-family: 'Nunito', sans-serif;">
   <div class="container" style="margin-top:-40px;">
-    <h3 class="text-center text-white font-weight-bold mb-4" data-aos="fade-up">Send the following Information</h3>
+    <h3 class="text-center text-white font-weight-bold mb-4" data-aos="fade-up">Get in touch with us</h3>
     <div class="row">
       <div class="col-lg-10 offset-md-1">
         <div class="card bg-white">

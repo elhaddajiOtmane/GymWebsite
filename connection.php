@@ -14,5 +14,5 @@
     {
         die ("Couldnot Connect :".mysqli_error());
     }
-    echo "Connection is done";
+   
 ?>

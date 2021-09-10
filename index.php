@@ -21,8 +21,25 @@
             </div>
             <div class="col-sm-9 col-md-9" style="background-color: rgb(120, 129, 102); height: 50px;">
                 <marquee width="100%" direction="left">
-                    <p style="color: #fff; font-weight: 600; padding-top: 10px;">This is a sample scrolling text that
-                        has scrolls texts to right.</p>
+                    <p style="color: #fff; font-weight: 600; padding-top: 10px;">
+                    <?php
+                    include 'connection.php';
+                
+                    $selectquery = "select * from notice";
+                    $query = mysqli_query($conn, $selectquery);
+                    $num = mysqli_num_rows($query);
+                    while($res = mysqli_fetch_array($query))
+                    {
+                      echo $res['notice'];
+                      
+                    }
+
+
+                    ?>
+                
+                
+                
+                </p>
                 </marquee>
             </div>
         </div>

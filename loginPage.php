@@ -66,7 +66,7 @@
                         <div class="form-group row" >
                             
                             <div class="col-lg-8" style="margin: auto; margin-top: 20px;">
-                                <input type="text" class="form-control bg-light" id="emailid" name="password" placeholder="Enter Password">
+                                <input type="password" class="form-control bg-light" id="emailid" name="password" placeholder="Enter Password">
 
                             </div>
                         </div>
