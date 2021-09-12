@@ -70,56 +70,36 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                <form>
+                <form action="" method="POST">
                     <div class="form-group row">
-                        <label for="firstname" class="col-md-2 col-form-label">First Name</label>
+                        <label for="firstname" class="col-md-2 col-form-label">Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name">
+                            <input type="text" class="form-control"  name="name" placeholder="Enter Name">
                         </div>
                     </div>
+                    
                     <div class="form-group row">
-                        <label for="lastname" class="col-md-2 col-form-label">Last Name</label>
+                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Last Name">
-                        </div>
-                    </div>
-                    <div class="form-group row">
-                        <label for="telnum" class="col-12 col-md-2 col-form-label">Contact Tel.</label>
-                        <div class="col-md-10">
-                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number">
+                            <input type="tel" class="form-control"  name="phone" placeholder="phone">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="emailid" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
-                            <input type="email" class="form-control" id="emailid" name="emailid" placeholder="Email">
+                            <input type="email" class="form-control"  name="email" placeholder="Email">
                         </div>
                     </div>
-                    <div class="form-group row">
-                        <div class="col-md-6 offset-md-2">
-                            <div class="form-check">
-                                <input type="checkbox" class="form-check-input" name="approve" id="approve" value="">
-                                <label class="form-check-label" for="approve">
-                                    <strong>May we contact you?</strong>
-                                </label>
-                            </div>
-                        </div>
-                        <div class="col-md-3 offset-md-1">
-                            <select class="form-control">
-                                <option>Tel.</option>
-                                <option>Email</option>
-                            </select>
-                        </div>
-                    </div>
+                   
                     <div class="form-group row">
                         <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
                         <div class="col-md-10">
-                            <textarea class="form-control" id="feedback" name="feedback" rows="12"></textarea>
+                            <textarea class="form-control"  name="feedback" rows="12"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="btn btn-primary">Send Feedback</button>
+                            <button type="submit" name="submit" class="btn btn-primary">Send Feedback</button>
                         </div>
                     </div>
                 </form>
@@ -132,3 +112,36 @@
 </section>
 </body>
 </html>
+<?php
+    include 'connection.php';
+    
+    if(isset($_POST['submit']))
+    {
+        $name = $_POST['name'];
+        $phone = $_POST['phone'];
+        $email = $_POST['email'];
+        $feedback = $_POST['feedback'];
+
+        $sql = "INSERT INTO customer_feedback(name, phone, email, feedback)VALUES('$name', '$phone', '$email', '$feedback')";
+           
+    $res = mysqli_query($conn, $sql);
+
+    if($res)
+    {
+        ?>
+        <script>
+            alert("Feedback Submitted");
+        </script>
+        <?php
+    }else{
+        ?>
+        <script>
+            alert("Feedback Not Submitted");
+        </script>
+        <?php
+    }
+    }
+
+
+
+?>

@@ -1,9 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Nunito', sans-serif;
 }
 body{
-    
+    background-color: aliceblue;
+    font-family: 'Nunito', sans-serif;
 }
 .heading1{
     padding-top: 40px;
@@ -35,41 +37,20 @@ body{
 .about-us{
     font-weight: 700;
 }
+.aboutParticipation{
+    width: 95%;
+    height: 200px;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid yellow;
+}
 .abcd{
     font-weight: 600;
     font-size: 13pt;
     padding-top: 10px;
 }
-#about-ab{
-    height: 400px;
-    
-    margin-top: 40px;
-    padding-left: 50px;
-    padding-right: 0;
+#separate
+{
+    width:30px;
+    background-color:yellow;
 }
-.acd img{
-    margin-top: 70px;
-    border-radius: 10px;
-}
-#trainer{
-    height: 400px;
-    border: 2px solid yellow;
-    margin-top: 50px;
-}
-.trainer{
-    text-align: center;
-    font-weight: 600;
-    padding-top: 60px;
-    padding-bottom: 30px;
-}
-
-/* -----offer-part------- */
-.offer-part{
-    height: 400px;
-    border: 2px solid green;
-    margin-bottom: 40px;
-}
-
-
-
-

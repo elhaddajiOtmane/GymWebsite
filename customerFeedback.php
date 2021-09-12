@@ -8,11 +8,22 @@
 </head>
 <body>
     <?php include 'navbar.php'; ?>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Customer Feedback</li>
+        </ol>
+        <div class="col-12">
+                <h5 style="font-size:20px; font-weight:bold;">Trainer</h5>
+                <hr>
+            </div>
+    </nav>
+
     <div class="container" style="margin: top 20px;">
         <div class="row">
             <div class="col text-center">
                 <img src="images/customer.png" alt="">
-                <h1>Customer</h1>
+                <h4><i class="far fa-comments" style="padding-right: 10px;"></i>Customer Feedback</h4>
             </div>
         </div>
         <div class="row view-row1">
@@ -20,16 +31,10 @@
                 <table class="table">
                     <tr>
                        
-                       <th>First Name</th>
-                       <th>Middle Name</th> 
-                       <th>Last Name</th>
-                       <th>Email</th> 
+                       <th>Name</th>
                        <th>Contact</th>
-                       <th>Address</th>
-                       <th>Current_Address</th>
-                       <th>adhar</th>
-                              
-                       <th>Delete</th>
+                       <th>Email</th> 
+                       <th>Feedback</th>       
                     </tr>
         
                     <?php
@@ -37,7 +42,7 @@
                     include 'connection.php';
                     
                     
-                    $selectquery = "select * from registrationmember";
+                    $selectquery = "select * from customer_feedback";
                     $query = mysqli_query($conn, $selectquery);
                     $num = mysqli_num_rows($query);
                     while($res = mysqli_fetch_array($query))
@@ -45,18 +50,10 @@
                         ?>
                         <tr>
                         
-                        <td><?php echo $res['firstname'] ?></td>   
-                        <td><?php echo $res['middlename'] ?></td>                
-                        <td><?php echo $res['lastname'] ?></td>
+                        <td><?php echo $res['name'] ?></td>   
+                        <td><?php echo $res['phone'] ?></td>                
                         <td><?php echo $res['email'] ?></td>
-                        <td><?php echo $res['phone'] ?></td>
-                        <td><?php echo $res['address'] ?></td>
-                        <td><?php echo $res['caddress'] ?></td>
-                        <td><?php echo $res['adhar'] ?></td>
-                        
-                        
-                       
-                        <td><a href="deleteCustomer.php?id=<?php echo $res['id']; ?>"><i class="fas fa-trash-alt" style="color:red"></i></td> 
+                        <td><?php echo $res['feedback'] ?></td>
                         
                     </tr>
                         

@@ -11,9 +11,9 @@
   <?php include 'header.php'; ?>
   </head>
   <body>
-    <!--navbar-->
+    
     <?php include 'navbar.php';?>
-    <!---->
+   
   <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
@@ -34,7 +34,7 @@
                     </div>
                     <div class="card-body">
                       <h5 class="card-title" style="font-size:20px;"><i class="far fa-address-card"></i> Add Trainer</h5>
-                      <a href="#" class="btn btn-primary" style="font-size:15px;">check</a>
+                      <a href="addTrainer.php" class="btn btn-primary" style="font-size:15px;">check</a>
                     </div>
                   </div>
             </div>

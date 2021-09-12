@@ -17,11 +17,21 @@
 <!--Navbaar-->
 
  <?php include 'navbar.php'; ?>
+ <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Add Trainer</li>
+  </ol>
+  <div class="col-12">
+         <h5 style="font-size:20px; font-weight:bold;">Add Trainer</h5>
+         <hr>
+      </div>
+</nav>
 
 <!--body of the reg. form-->
 <section class="jumbotron bg-warning rounded-0" style="height:80vh;font-family: 'Nunito', sans-serif;">
   <div class="container" style="margin-top:-40px;">
-    <h3 class="text-center text-white font-weight-bold mb-4" data-aos="fade-up">Member Registration</h3>
+    <h3 class="text-center text-white font-weight-bold mb-4" data-aos="fade-up">Add Trainer</h3>
     <div class="row">
       <div class="col-lg-10 offset-md-1">
         <div class="card bg-white">
@@ -29,7 +39,7 @@
            
           
           <!-- ----------form-start------- -->
-            <form action="registrationMember.php" method="POST">
+            <form action="addTrainer.php" method="POST">
               <div class="form-group row">
                   <label for="firstname" class="col-lg-4 col-form-label font-weight-bold">First Name</label>
                   <div class="col-lg-8">
@@ -53,6 +63,13 @@
               </div>
 
               <div class="form-group row">
+                   <label for="phone" class="col-lg-4 col-form-label font-weight-bold">Phone</label>
+                   <div class="col-lg-8">
+                       <input type="number" class="form-control bg-light"  name="phone" placeholder="Enter Your Phone Number">
+                   </div>
+               </div>
+
+              <div class="form-group row">
                   <label for="emailid" class="col-lg-4 col-form-label font-weight-bold">Email</label>
                   <div class="col-lg-8">
                       <input type="email" class="form-control bg-light"  name="email">
@@ -60,12 +77,14 @@
                     </div>
               </div>
 
-                 <div class="form-group row">
-                   <label for="phone" class="col-lg-4 col-form-label font-weight-bold">Phone</label>
+              <div class="form-group row">
+                   <label for="address" class="col-lg-4 col-form-label font-weight-bold">Experience</label>
                    <div class="col-lg-8">
-                       <input type="number" class="form-control bg-light"  name="phone" placeholder="Enter Your Phone Number">
+                       <input type="text" class="form-control bg-light" name="experience">
                    </div>
                </div>
+
+                
 
                <div class="form-group row">
                    <label for="address" class="col-lg-4 col-form-label font-weight-bold">Address</label>
@@ -73,22 +92,15 @@
                        <input type="text" class="form-control bg-light" name="address">
                    </div>
                </div>
-
                <div class="form-group row">
-                   <label for="current-address" class="col-lg-4 col-form-label font-weight-bold">Current Address</label>
+                   <label for="address" class="col-lg-4 col-form-label font-weight-bold">Adhar No</label>
                    <div class="col-lg-8">
-                       <input type="text" class="form-control bg-light"  name="caddress">
+                       <input type="text" class="form-control bg-light" name="adhar">
                    </div>
                </div>
 
                
-              <div class="form-group row">
-                   <label for="adharno" class="col-lg-4 col-form-label font-weight-bold">Adhaar No</label>
-                   <div class="col-lg-8">
-                       <input type="number" class="form-control bg-light"  name="adhar">
-                   </div>
-               </div>
-               
+            
                <br>
               <div class="form-group row">
                   <div class="offset-md-5 col-md-7">
@@ -118,14 +130,14 @@ include 'connection.php';
     $firstname = $_POST['firstname'];
     $middlename = $_POST['middlename'];
     $lastname = $_POST['lastname'];
-    $email = $_POST['email'];
     $phone = $_POST['phone'];
+    $email = $_POST['email'];
+    $exprience = $_POST['experience'];
     $address = $_POST['address'];
-    $caddress = $_POST['caddress'];
     $adhar = $_POST['adhar'];
 
 
-    $sql = "INSERT INTO registrationmember(firstname, middlename, lastname, email, phone, address, caddress, adhar)VALUES('$firstname', '$middlename', '$lastname', '$email', '$phone', '$address', '$caddress', '$adhar')";
+    $sql = "INSERT INTO trainer(firstname, middlename, lastname, phone, email, experience, address, adhar)VALUES('$firstname', '$middlename', '$lastname', '$phone', '$email', '$exprience', '$address',  '$adhar')";
            
     $res = mysqli_query($conn, $sql);
 
@@ -133,13 +145,13 @@ include 'connection.php';
     {
         ?>
         <script>
-            alert("Customer Data Inserted Successfully");
+            alert("Trainer Data Inserted Successfully");
         </script>
         <?php
     }else{
         ?>
         <script>
-            alert("Customer Data is not inserted");
+            alert("Trainers Data is not inserted");
         </script>
         <?php
     }

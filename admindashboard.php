@@ -70,9 +70,8 @@
 
         <div class="container" style="margin-top: 40px;">
           <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-12"></div>
-            <div class="col-lg-4 col-md-6 col-sm-12">
-              <div class="card mb-3">
+          <div class="col-lg-4 col-md-6 col-sm-12">
+          <div class="card mb-3">
                 <div class="card-header bg-danger"> 
                 </div>
                 <div class="card-body">
@@ -80,8 +79,23 @@
                   <a href="#" class="btn btn-primary" style="font-size:15px;">check</a>
                 </div>
               </div>
+
+
+          </div>
+            <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-3">
+                <div class="card-header bg-primary"> 
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size:20px;"><i class="far fa-comments"></i> Customer Feedback</h5>
+                  <a href="customerFeedback.php" class="btn btn-primary" style="font-size:15px;">check</a>
+                </div>
+              </div>
         </div>
             </div>
+
+
+    
               <div class="col-lg-4 col-md-6 col-sm-12"></div>
           </div>
         </div>
