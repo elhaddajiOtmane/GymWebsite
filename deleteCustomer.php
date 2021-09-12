@@ -3,7 +3,7 @@
     
     $id = $_GET['id'];
 
-    $sql = "DELETE FROM `registrationmember` WHERE id = '$id'";
+    $sql = "DELETE FROM `registrationmember1` WHERE id = '$id'";
     $result = mysqli_query($conn, $sql);
 
     if($result)

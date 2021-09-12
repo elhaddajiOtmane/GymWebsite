@@ -37,7 +37,7 @@
                     include 'connection.php';
                     
                     
-                    $selectquery = "select * from registrationmember";
+                    $selectquery = "select * from registrationmember1";
                     $query = mysqli_query($conn, $selectquery);
                     $num = mysqli_num_rows($query);
                     while($res = mysqli_fetch_array($query))

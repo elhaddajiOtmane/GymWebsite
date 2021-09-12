@@ -42,7 +42,7 @@
                     include 'connection.php';
                     
                     
-                    $selectquery = "select * from customer_feedback";
+                    $selectquery = "SELECT * FROM `customer_feedback1`";
                     $query = mysqli_query($conn, $selectquery);
                     $num = mysqli_num_rows($query);
                     while($res = mysqli_fetch_array($query))
@@ -51,7 +51,7 @@
                         <tr>
                         
                         <td><?php echo $res['name'] ?></td>   
-                        <td><?php echo $res['phone'] ?></td>                
+                        <td><?php echo $res['contact'] ?></td>                
                         <td><?php echo $res['email'] ?></td>
                         <td><?php echo $res['feedback'] ?></td>
                         

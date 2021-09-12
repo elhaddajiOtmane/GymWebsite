@@ -137,7 +137,7 @@ include 'connection.php';
     $adhar = $_POST['adhar'];
 
 
-    $sql = "INSERT INTO trainer(firstname, middlename, lastname, phone, email, experience, address, adhar)VALUES('$firstname', '$middlename', '$lastname', '$phone', '$email', '$exprience', '$address',  '$adhar')";
+    $sql = "INSERT INTO trainer1(firstname, middlename, lastname, phone, email, experience, address, adhar)VALUES('$firstname', '$middlename', '$lastname', '$phone', '$email', '$exprience', '$address',  '$adhar')";
            
     $res = mysqli_query($conn, $sql);
 

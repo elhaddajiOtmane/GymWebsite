@@ -125,7 +125,7 @@ include 'connection.php';
     $adhar = $_POST['adhar'];
 
 
-    $sql = "INSERT INTO registrationmember(firstname, middlename, lastname, email, phone, address, caddress, adhar)VALUES('$firstname', '$middlename', '$lastname', '$email', '$phone', '$address', '$caddress', '$adhar')";
+    $sql = "INSERT INTO registrationmember1(firstname, middlename, lastname, email, phone, address, caddress, adhar)VALUES('$firstname', '$middlename', '$lastname', '$email', '$phone', '$address', '$caddress', '$adhar')";
            
     $res = mysqli_query($conn, $sql);
 

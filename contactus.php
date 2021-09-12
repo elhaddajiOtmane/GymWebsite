@@ -122,7 +122,7 @@
         $email = $_POST['email'];
         $feedback = $_POST['feedback'];
 
-        $sql = "INSERT INTO customer_feedback(name, phone, email, feedback)VALUES('$name', '$phone', '$email', '$feedback')";
+        $sql = "INSERT INTO `customer_feedback1` (`name`, `contact`, `email`, `feedback`) VALUES ('$name', '$phone', '$email', '$feedback');";
            
     $res = mysqli_query($conn, $sql);
 

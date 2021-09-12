@@ -97,7 +97,7 @@
           $phone = $_POST['phone'];
           $address = $_POST['address'];
 
-          $sql = "INSERT INTO join_members(name, email, phone, address)VALUES('$name', '$emailid' ,'$phone', '$address')";
+          $sql = "INSERT INTO join_member1(name, email, phone, address)VALUES('$name', '$emailid' ,'$phone', '$address')";
 
           $res = mysqli_query($conn, $sql);
 
