@@ -12,7 +12,7 @@
       @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 </style>
 </head>
-<body style="height:200vh">
+<body>
 <!--Navbaar-->
 
  <?php include 'navbar.php'; ?>
@@ -27,12 +27,12 @@
           <div class="card-body">
             <!-- ----------form-start------- -->
             <form method="POST" action="joinMember.php">
-              <div class="form-group row">
-                  <label for="firstname" class="col-lg-4 col-form-label font-weight-bold">Name</label>
-                  <div class="col-lg-8">
-                      <input type="text" class="form-control bg-light" id="firstname" name="name">
-                  </div>
-              </div>
+                <div class="form-group row">
+                    <label for="firstname" class="col-lg-4 col-form-label font-weight-bold">Name</label>
+                    <div class="col-lg-8">
+                        <input type="text" class="form-control bg-light" id="firstname" name="name">
+                    </div>
+                </div>
 
 
              
@@ -97,7 +97,7 @@
           $phone = $_POST['phone'];
           $address = $_POST['address'];
 
-          $sql = "INSERT INTO join_member1(name, email, phone, address)VALUES('$name', '$emailid' ,'$phone', '$address')";
+          $sql = "INSERT INTO join_member(name, email, phone, address)VALUES('$name', '$emailid' ,'$phone', '$address')";
 
           $res = mysqli_query($conn, $sql);
 
@@ -122,6 +122,6 @@
     }
 
 
-
+    include 'footer.php';
 
 ?>

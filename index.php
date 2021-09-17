@@ -29,7 +29,7 @@
                     <p style="color: #fff; font-weight: 600; padding-top: 10px;"> <?php
                     include 'connection.php';
                 
-                    $selectquery = "select * from notice1";
+                    $selectquery = "select * from notice";
                     $query = mysqli_query($conn, $selectquery);
                     $num = mysqli_num_rows($query);
                     while($res = mysqli_fetch_array($query))
@@ -49,9 +49,9 @@
             <div class="col-md-8" style="padding: 20px;">
                 <h4 class="heading1 font-weight-bold">Shape Your Body</h4>
                 <h1 class="strongHeadMain">BE <span class="strongHead">STRONG</span> AND TRAINING HARD</h1>
-                <p class="textBe">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                    quis nostrud exercitation ullamco laboris nisi ut aliquip.</p>
+                <p class="textBe">The abc Gym Fitness Institute GGFI is India’s first International Fitness Management Institute. It offers certificate courses in Fitness
+                     Management, Personal Training and Spinning Instructing. It covers a range of subjects to comprehensively address and ensure the best 
+                     international brand practices in India. The 3 month courses are monitored by qualified personnel of abc Gym, and also hosts guest lectures by the biggest names in the international fitness industry with guaranteed internships and a firsthand opportunity to experience</p>
               <a href="#" class="text-first"><button class="btn btn-warning text-dark">Know More</button></a>
                 <div class="container" style="margin-top: 60px;">
                     <div class="row">
@@ -150,8 +150,8 @@
             </div>
             <div class="col-md-6 justify-text" id="about-ab">
                 <h1 style="text-align: center; padding-bottom: 10px;font-weight: bold;">About Us</h1>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cupiditate exercitationem odit maiores velit. Odio asperiores soluta laboriosam. Aperiam repellat iure sequi id blanditiis aut animi perspiciatis voluptate suscipit possimus.
+                <p style="padding-left:30px">
+                abc Gym has been leading the fitness movement and redefining strength since 1965 when Joe Gold opened the original abc Gym in Venice, California. Long before the modern-day health club existed, the original abc Gym featured three simple ingredients: The best equipment, a passion for fitness and an unparalleled dedication to results. It was an instant hit.
                 </p>
                 <a href="#" style="margin-left: 200px;"><button class="btn btn-warning">See More</button></a>
             </div>

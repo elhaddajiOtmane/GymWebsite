@@ -3,18 +3,18 @@
     
     $id = $_GET['id'];
 
-    $sql = "DELETE FROM `registrationmember` WHERE id = '$id'";
+    $sql = "DELETE FROM `trainer` WHERE id = '$id'";
     $result = mysqli_query($conn, $sql);
 
     if($result)
     {
         ?>
         <script>
-            alert("Data Deleted Successfully");
+            alert("Trainer Deleted Successfully");
             
         </script>
         <?php
-        header('Location: manageMember.php');
+        header('Location: viewTrainerDetails.php');
         
 
     }else{
@@ -23,6 +23,7 @@
             alert("Data is not Deleted");
         </script>
         <?php
+        header('Location: viewTrainerDetails.php');
     }
 
 

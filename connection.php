@@ -4,7 +4,7 @@
     $host = 'localhost:3307';
     $user = '';
     $pass = '';
-    $dbname = 'rimi_gym';
+    $dbname = 'gym';
 
 
 

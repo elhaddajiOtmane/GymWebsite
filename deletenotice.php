@@ -3,7 +3,7 @@
     
     $id = $_GET['id'];
 
-    $sql = "DELETE FROM `notice1` WHERE id = '$id'";
+    $sql = "DELETE FROM `notice` WHERE id = '$id'";
     $result = mysqli_query($conn, $sql);
 
     if($result)

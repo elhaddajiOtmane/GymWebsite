@@ -51,7 +51,7 @@
                     </div>
                     <div class="card-body">
                       <h5 class="card-title" style="font-size:20px;"><i class="fas fa-credit-card"></i> Payment</h5>
-                      <a href="#" class="btn btn-primary"  style="font-size:15px;">check</a>
+                      <a href="payment.php" class="btn btn-primary"  style="font-size:15px;">check</a>
                     </div>
                   </div>
             </div>
@@ -72,11 +72,11 @@
           <div class="row">
           <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="card mb-3">
-                <div class="card-header bg-danger"> 
+                <div class="card-header bg-warning"> 
                 </div>
                 <div class="card-body">
                   <h5 class="card-title" style="font-size:20px;"><i class="fas fa-dumbbell"></i> Package</h5>
-                  <a href="#" class="btn btn-primary" style="font-size:15px;">check</a>
+                  <a href="package.php" class="btn btn-primary" style="font-size:15px;">check</a>
                 </div>
               </div>
 
@@ -89,6 +89,17 @@
                 <div class="card-body">
                   <h5 class="card-title" style="font-size:20px;"><i class="far fa-comments"></i> Customer Feedback</h5>
                   <a href="customerFeedback.php" class="btn btn-primary" style="font-size:15px;">check</a>
+                </div>
+              </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-sm-12">
+              <div class="card mb-3">
+                <div class="card-header bg-success"> 
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title" style="font-size:20px;"><i class="far fa-comments"></i> Enquiry Member</h5>
+                  <a href="EnquiryMember.php" class="btn btn-primary" style="font-size:15px;">check</a>
                 </div>
               </div>
         </div>

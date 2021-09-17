@@ -44,7 +44,7 @@
                     </div>
                     <div class="card-body">
                       <h5 class="card-title" style="font-size:20px;"><i class="fas fa-clipboard-list"></i> Manage Trainer</h5>
-                      <a href="#" class="btn btn-primary" style="font-size:15px;">check</a>
+                      <a href="viewTrainerDetails.php" class="btn btn-primary" style="font-size:15px;">check</a>
                     </div>
                   </div>
             </div>

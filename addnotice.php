@@ -68,7 +68,7 @@
 
     $notice = $_POST['notice'];
 
-    $sql = "INSERT INTO notice1(notice)VALUES('$notice')";
+    $sql = "INSERT INTO notice(notice)VALUES('$notice')";
     $res = mysqli_query($conn, $sql);
 
     if($res)

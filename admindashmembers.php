@@ -53,8 +53,8 @@
                     <div class="card-header bg-info"> 
                     </div>
                     <div class="card-body">
-                      <h5 class="card-title" style="font-size:20px;"><i class="fas fa-info"></i> Member Details</h5>
-                      <a href="#" class="btn btn-primary" style="font-size:15px;">check</a>
+                      <h5 class="card-title" style="font-size:20px;"><i class="fas fa-info"></i>Pyment Records</h5>
+                      <a href="viewPaymentRecord.php" class="btn btn-primary" style="font-size:15px;">check</a>
                     </div>
                   </div>
             </div>

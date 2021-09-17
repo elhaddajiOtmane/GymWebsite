@@ -13,10 +13,21 @@
       @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 </style>
 </head>
-<body style="height:200vh">
+<body style="height:120vh">
 <!--Navbaar-->
 
  <?php include 'navbar.php'; ?>
+ <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Member Registration</li>
+  </ol>
+  <div class="col-12">
+         <h5 style="font-size:20px; font-weight:bold;">Members Registration</h5>
+         <a href="registrationPayment.php"><button  class="btn btn-primary" style="float:right; margin-top:100px">Payment</button></a>
+         <hr>
+      </div>
+</nav>
 
 <!--body of the reg. form-->
 <section class="jumbotron bg-warning rounded-0" style="height:80vh;font-family: 'Nunito', sans-serif;">
@@ -94,6 +105,8 @@
                   <div class="offset-md-5 col-md-7">
                   <button  name="submit" class="btn btn-primary">Register</button>
                   </div>
+                 
+
               </div>
           </form>
 
@@ -125,7 +138,7 @@ include 'connection.php';
     $adhar = $_POST['adhar'];
 
 
-    $sql = "INSERT INTO registrationmember1(firstname, middlename, lastname, email, phone, address, caddress, adhar)VALUES('$firstname', '$middlename', '$lastname', '$email', '$phone', '$address', '$caddress', '$adhar')";
+    $sql = "INSERT INTO registrationmember(firstname, middlename, lastname, email, phone, address, caddress, adhar)VALUES('$firstname', '$middlename', '$lastname', '$email', '$phone', '$address', '$caddress', '$adhar')";
            
     $res = mysqli_query($conn, $sql);
 
@@ -136,6 +149,8 @@ include 'connection.php';
             alert("Customer Data Inserted Successfully");
         </script>
         <?php
+       
+
     }else{
         ?>
         <script>

@@ -34,6 +34,11 @@
                         <a class="nav-link active" id="nav-links" aria-current="page" href="contactus.php"><i
                                 class="fas fa-phone-alt" style="padding-right: 5px; "></i>Contact-Us</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-links" aria-current="page" href="packages.php"><i class="far fa-calendar" style="padding-right:5px"></i></i>Packages</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link active" id="nav-links" aria-current="page" href="Gallery.php"><i
                                 class="far fa-images" style="padding-right: 5px; "></i>Gallery</a>

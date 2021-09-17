@@ -31,7 +31,7 @@
               include 'connection.php';
               
               
-              $selectquery = "select * from notice1";
+              $selectquery = "select * from notice";
               $query = mysqli_query($conn, $selectquery);
               $num = mysqli_num_rows($query);
               while($res = mysqli_fetch_array($query))

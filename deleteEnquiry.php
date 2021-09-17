@@ -3,26 +3,27 @@
     
     $id = $_GET['id'];
 
-    $sql = "DELETE FROM `registrationmember` WHERE id = '$id'";
+    $sql = "DELETE FROM `join_member` WHERE id = '$id'";
     $result = mysqli_query($conn, $sql);
 
     if($result)
     {
         ?>
         <script>
-            alert("Data Deleted Successfully");
+            alert("Enquiry  Deleted Successfully");
             
         </script>
         <?php
-        header('Location: manageMember.php');
+        header('Location: nquiryMember.php');
         
 
     }else{
         ?>
         <script>
-            alert("Data is not Deleted");
+            alert("Notice is not Deleted");
         </script>
         <?php
+        header('Location: EnquiryMember.php');
     }
 
 
