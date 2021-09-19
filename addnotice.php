@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/admindashborad.css">
+    <script src="validation.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <?php include 'header.php'; ?>
     
@@ -33,11 +34,11 @@
             <div class="col-lg-10 offset-md-1">
               <div class="card bg-white">
                 <div class="card-body">
-                  <form method="POST" action="addnotice.php">
+                  <form method="POST" action="addnotice.php" onsubmit = "return noticeValidation()">
                       <div class="form-group row">
                           <label for="Notice" class="col-lg-4 col-form-label font-weight-bold" style="font-size:1rem;  font-family: 'Nunito', sans-serif;">Notice</label>
                           <div class="col-lg-8">
-                          <textarea class="form-control bg-light" name="notice" rows="6"></textarea>
+                          <textarea class="form-control bg-light" id ="notice" name="notice" rows="6"></textarea>
                           </div>
                       </div>
                       <br>

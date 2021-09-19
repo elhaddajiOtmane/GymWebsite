@@ -11,7 +11,7 @@
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
-    <li class="breadcrumb-item active" aria-current="page">Paymnt Record</li>
+    <li class="breadcrumb-item active" aria-current="page">Payment Record</li>
   </ol>
   <div class="col-12">
          <h5 style="font-size:20px; font-weight:bold;">Payment Records</h5>

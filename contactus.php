@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/contactus.css">
+  <script src="validation.js"></script>
     <?php include 'header.php'; ?>
 </head>
 <body>
@@ -70,31 +71,31 @@
               <h3>Send us your Feedback</h3>
            </div>
             <div class="col-12 col-md-9">
-                <form action="" method="POST">
+                <form action="" method="POST" onsubmit="return feedbackValidation()">
                     <div class="form-group row">
                         <label for="firstname" class="col-md-2 col-form-label">Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control"  name="name" placeholder="Enter Name">
+                            <input type="text" class="form-control" id="name"  name="name" placeholder="Enter Name">
                         </div>
                     </div>
                     
                     <div class="form-group row">
                         <label for="telnum" class="col-12 col-md-2 col-form-label">Contact</label>
                         <div class="col-md-10">
-                            <input type="tel" class="form-control"  name="phone" placeholder="phone">
+                            <input type="tel" class="form-control" id="phone"  name="phone" placeholder="phone">
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="emailid" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
-                            <input type="email" class="form-control"  name="email" placeholder="Email">
+                            <input type="email" class="form-control" id="email"  name="email" placeholder="Email">
                         </div>
                     </div>
                    
                     <div class="form-group row">
                         <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
                         <div class="col-md-10">
-                            <textarea class="form-control"  name="feedback" rows="12"></textarea>
+                            <textarea class="form-control" id="feedback"  name="feedback" rows="12"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">

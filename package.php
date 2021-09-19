@@ -12,6 +12,7 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
     </style>
+    <script src="validation.js"></script>
     <?php include 'header.php'; ?>
 </head>
 
@@ -23,7 +24,7 @@
         <h1 style="text-align: center"><i class="far fa-box-full"></i></h1>
         <h2 class="text-center" style="padding-bottom:20px;font-weight:bold;">Add Package</h2>
         <div class="col-lg-10 offset-1">
-            <form method="POST" action="package.php">
+            <form method="POST" action="package.php" onsubmit="return packageValidation()">
                 <div class="form-group row">
                     <label for="pack_name" class="col-md-3 col-form-label">Package Name</label>
                     <div class="col-md-9">
@@ -44,7 +45,7 @@
                 <div class="form-group row">
                     <label for="description" class="col-md-3 col-form-label">Package Description</label>
                     <div class="col-md-9">
-                        <textarea class="form-control" id="feedback" name="description" rows="5"></textarea>
+                        <textarea class="form-control" id="desc" name="description" rows="5"></textarea>
                     </div>
                 </div>
 

@@ -99,6 +99,7 @@
 
                     <div class="form-group text-center" style="margin-top: 40px;">
                         <button type="submit" name="submit" class="btn btn-outline-success">Submit</button>
+                        <a href="viewPaymentRecord.php"><button type="button" class="btn btn-outline-success">View Records</button></a>
                     </div>
                     
 

@@ -8,6 +8,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <?php include 'header.php'; ?>
+  <script src="validation.js"></script>
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 </style>
@@ -26,11 +27,11 @@
         <div class="card bg-white">
           <div class="card-body">
             <!-- ----------form-start------- -->
-            <form method="POST" action="joinMember.php">
+            <form method="POST" action="joinMember.php" onsubmit="return joinMemberValidation()">
                 <div class="form-group row">
                     <label for="firstname" class="col-lg-4 col-form-label font-weight-bold">Name</label>
                     <div class="col-lg-8">
-                        <input type="text" class="form-control bg-light" id="firstname" name="name">
+                        <input type="text" class="form-control bg-light" id="name" name="name">
                     </div>
                 </div>
 
@@ -39,7 +40,7 @@
               <div class="form-group row">
                   <label for="emailid" class="col-lg-4 col-form-label font-weight-bold">Email</label>
                   <div class="col-lg-8">
-                      <input type="email" class="form-control bg-light" id="emailid" name="emailid">
+                      <input type="email" class="form-control bg-light" id="email" name="emailid">
                       
                     </div>
               </div>
