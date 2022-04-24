@@ -1,8 +1,8 @@
 <?php
 
 
-    $host = 'localhost:3307';
-    $user = '';
+    $host = 'localhost';
+    $user = 'root';
     $pass = '';
     $dbname = 'gym';
 
@@ -12,7 +12,7 @@
 
     if(! $conn)
     {
-        die ("Couldnot Connect :".mysqli_error());
+        die ("Couldnot Connect :".mysqli_error($e)."");
     }
-   
+
 ?>
