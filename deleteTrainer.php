@@ -10,7 +10,7 @@
     {
         ?>
         <script>
-            alert("Trainer Deleted Successfully");
+            alert("Trainer Deleted Successfully huh");
             
         </script>
         <?php
