@@ -42,3 +42,607 @@
     margin-bottom: 20px;
 }
 
+body,
+gtnbg_root,
+p {
+	font-family: Open Sans, sans-serif;;
+	font-size: 15px;
+	line-height: 26px;
+}
+h1 {
+	font-family: Roboto;
+	font-size: 40px;
+	line-height: 44px;
+}
+h2 {
+	font-family: Roboto, sans-serif;;
+	font-size: 28px;
+	line-height: 31px;
+}
+h3 {
+	font-family: Roboto, sans-serif;;
+	font-size: 20px;
+	line-height: 26px;
+}
+h4 {
+	font-family: Roboto, sans-serif;;
+	font-size: 16px;
+	line-height: 18px;
+}
+h5 {
+	font-family: Roboto, sans-serif;;
+	font-size: 14px;
+	line-height: 16px;
+}
+h6 {
+	font-family: Roboto, sans-serif;;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+a:link,
+a:visited {
+	color: #f1d00a;
+}
+
+a:hover,
+a:focus,
+a:active {
+	color: #21325e;
+}
+
+blockquote,
+.wp-block-quote,
+.wp-block-pullquote {
+	border-color: #f1d00a;
+}
+.wp-block-quote::before {
+	background-color: #f1d00a;
+}:root {
+--rt-primary-color: #f1d00a;
+--rt-secondary-color: #21325e;
+--rt-primary-rgb: 241, 208, 10;
+}
+
+#tophead .tophead-contact .fa,
+#tophead .tophead-social li a:hover,
+.cart-icon-products .widget_shopping_cart .mini_cart_item a:hover,
+.entry-summary h3 a:hover,
+.entry-summary h3 a:active,
+.entry-header-single .entry-meta ul li .fa,
+.class-footer ul li .fa,
+.comments-area .main-comments .comments-body .replay-area a:hover,
+.comments-area .main-comments .comments-body .replay-area a i,
+#respond form .btn-send,
+.widget_gymedge_about ul li a:hover,
+.widget_gymedge_address ul li i,
+.widget_gymedge_address ul li a:hover,
+.widget_gymedge_address ul li a:active,
+.sidebar-widget-area ul li a:hover,
+.sidebar-widget-area .widget_gymedge_address ul li a:hover,
+.sidebar-widget-area .widget_gymedge_address ul li a:active,
+.trainer-info a:hover,
+.trainer-detail-content .detail-heading .title,
+.trainer-skills h3,
+.wpcf7 label.control-label .fa,
+.gym-primary-color {
+color: #f1d00a;
+}
+
+.site-header .search-box .search-button i,
+.scrollToTop:after {
+color: #f1d00a !important;
+}
+
+.header-icon-area .cart-icon-area .cart-icon-num,
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"],
+.breadcrumb-area .entry-breadcrumb,
+.entry-header .entry-meta,
+.vc-post-slider .date,
+.entry-summary a.read-more:hover,
+.entry-summary a.read-more:active,
+.pagination-area ul li.active a,
+.pagination-area ul li a:hover,
+.woocommerce nav.woocommerce-pagination ul li span.current,
+.woocommerce nav.woocommerce-pagination ul li a:hover,
+#respond form .btn-send:hover,
+.widget_gymedge_about ul li a,
+.search-form .custom-search-input button.btn,
+.widget .tagcloud a,
+.sidebar-widget-area .widget h3:after,
+.trainer-info li a:hover,
+.trainer-skills .skill .progress .progress-bar,
+.error-page-area .error-page-message .home-page a,
+.gym-button-1 a:hover,
+.wpcf7 .submit-button,
+.gym-primary-bgcolor {
+background-color: #f1d00a;
+}
+
+.stick,
+.site-header .search-box .search-text,
+.scrollToTop,
+.entry-summary a.read-more:link,
+.entry-summary a.read-more:visited,
+#respond form .btn-send,
+.trainer-info li a {
+border-color: #f1d00a;
+}
+
+.search-form .custom-search-input button.btn:hover,
+.widget .tagcloud a:hover {
+background-color: #21325e;
+}
+
+#tophead {
+background-color: #21325e;
+color: #ffffff;
+}
+#tophead .tophead-contact a,
+#tophead .tophead-links ul li a,
+#tophead .tophead-social li a {
+color: #ffffff;
+}
+.header-style-2 .site #tophead {
+background-color: rgba(33, 50, 94, 0.5 );
+}
+
+.stick .site-header,
+.main-header-sticky-wrapper {
+border-color: #f1d00a}
+.site-header .main-navigation ul li a,
+.mean-container .mean-nav ul li a {
+font-family: Open Sans, sans-serif;
+font-size : 15px;
+font-weight : 600;
+line-height : 21px;
+color: #21325e;
+font-style: normal;
+}
+.site-header .main-navigation ul li a:hover,
+.header-style-2.non-stick .site .site-header .main-navigation ul.menu > li > a:hover,
+.site-header .main-navigation ul.menu > li.current-menu-item > a,
+.site-header .main-navigation ul.menu > li.current > a,
+.mean-container .mean-nav ul li a:hover,
+.mean-container .mean-nav > ul > li.current-menu-item > a {
+color: #f1d00a;
+}
+.site-header .main-navigation ul li a.active {
+color: #f1d00a !important;
+}
+.site-header .main-navigation ul li ul li {
+background-color: #21325e;
+}
+.site-header .main-navigation ul li ul li:hover {
+background-color: #f1d00a;
+}
+.site-header .main-navigation ul li ul li a,
+.header-style-2.non-stick .site .site-header .main-navigation ul li ul li a,
+.site-header .main-navigation ul li .sub-menu li.menu-item-has-children::after,
+.site-header .main-navigation ul li ul li:hover a {
+color: #ffffff;
+}
+
+.site-header .main-navigation ul li.mega-menu > ul.sub-menu {
+background-color: #21325e;
+}
+.site-header .main-navigation ul li.mega-menu > ul.sub-menu > li ul.sub-menu a:hover {
+background-color: #f1d00a;
+}
+
+.mean-container a.meanmenu-reveal,
+.mean-container .mean-nav ul li a.mean-expand {
+color: #f1d00a;
+}
+.mean-container a.meanmenu-reveal span {
+background-color: #f1d00a;
+}
+.mean-container .mean-bar {
+border-color: #f1d00a;
+}
+
+.stick .site-header,
+.main-header-sticky-wrapper .header-sticky {
+background: #ffffff;
+}
+.stick .site-header .main-navigation ul.menu > li > a,
+.rdthemeSticky .site-header .main-navigation ul.menu > li > a {
+color: #21325e;
+}
+.stick .site-header .main-navigation ul.menu > li > a:hover,
+.stick .site-header .main-navigation ul.menu > li.current > a,
+.rdthemeSticky .site-header .main-navigation ul.menu > li.current > a,
+.rdthemeSticky .site-header .main-navigation ul.menu > li > a:hover {
+color: #f1d00a;
+}
+.stick .site-header .main-navigation ul.menu > li > a.active,
+.rdthemeSticky .site-header .main-navigation ul.menu > li > a.active {
+color: #f1d00a !important;
+}
+
+.footer-top-area {
+background-color: #f1d00a;
+}
+.footer-top-area .widget h3 {
+color: #ffffff;
+}
+.footer-top-area .widget,
+.widget_gymedge_address ul li,
+.widget_gymedge_address ul li a:link,
+.widget_gymedge_address ul li a:visited {
+color: #21325e;
+}
+.footer-bottom-area {
+background-color: #21325e;
+}
+.footer-bottom-area .footer-bottom p {
+color: #ffffff;
+}
+.footer-2-area .footer2-contact .footer2-contact-item,
+.footer-2-area .footer2-contact .footer2-contact-item i {
+color: #f1d00a;
+}
+
+body .content-area {
+padding-top: 0px;
+padding-bottom: 0px;
+}
+.entry-banner {
+    background: url(https://izdiharfitness.club/wp-content/themes/gymedge/assets/img/banner.jpg) no-repeat scroll center center / cover;
+}
+
+.rdtheme-button-2 {
+background-color: #f1d00a;
+}
+.rdtheme-button-3:hover {
+color: #f1d00a !important;
+}
+
+.error-page-area .error-page h1,
+.error-page-area .error-page p {
+color: #ffffff;
+}
+
+.ls-bar-timer {
+background-color: #f1d00a;
+border-bottom-color: #f1d00a;
+}
+
+.rt-wpls .wpls-carousel .slick-prev,
+.rt-wpls .wpls-carousel .slick-next {
+background-color: #f1d00a;
+}
+
+.product-grid-view .woo-shop-top .view-mode ul li:first-child .fa,
+.product-list-view .woo-shop-top .view-mode ul li:last-child .fa,
+.woocommerce ul.products li.product h3 a:hover,
+.woocommerce ul.products li.product .price,
+.woocommerce .product-thumb-area .product-info ul li a:hover .fa,
+.woocommerce a.woocommerce-review-link:hover,
+.woocommerce div.product p.price, .woocommerce div.product span.price,
+.woocommerce div.product .product-meta a:hover,
+.woocommerce div.product .woocommerce-tabs ul.tabs li.active a,
+.woocommerce-message::before,
+.woocommerce-info::before {
+color: #f1d00a;
+}
+
+.woocommerce ul.products li.product .onsale,
+.woocommerce span.onsale,
+.woocommerce a.added_to_cart,
+.woocommerce div.product form.cart .button,
+.woocommerce #respond input#submit,
+.woocommerce a.button,
+.woocommerce button.button,
+.woocommerce input.button,
+p.demo_store,
+.woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit[disabled]:disabled:hover, .woocommerce a.button.disabled:hover, .woocommerce a.button:disabled:hover, .woocommerce a.button[disabled]:disabled:hover, .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button[disabled]:disabled:hover, .woocommerce input.button.disabled:hover, .woocommerce input.button:disabled:hover, .woocommerce input.button[disabled]:disabled:hover,
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li a {
+background-color: #f1d00a;
+}
+
+.woocommerce-message,
+.woocommerce-info {
+border-color: #f1d00a;
+}
+
+.woocommerce .product-thumb-area .overlay {
+background-color: rgba(241, 208, 10, 0.8);
+}.rt-owl-nav-1 .owl-custom-nav .owl-prev,
+.rt-owl-nav-1 .owl-custom-nav .owl-next {
+	background-color: #f1d00a;
+}
+
+.rt-owl-nav-2 .owl-theme .owl-nav > div {
+	background-color: #f1d00a !important;
+}
+
+.rt-owl-dot-1 .owl-theme .owl-dots .owl-dot.active span,
+.rt-owl-dot-1 .owl-theme .owl-dots .owl-dot:hover span {
+	background-color: #f1d00a;
+}
+
+.rt-owl-title-1 .owl-title::after {
+	background-color: #f1d00a;
+}
+
+.rt-owl-post-1 .single-item .single-item-content h3 a:hover {
+    color: #f1d00a;
+}
+.rt-owl-post-1 .single-item-meta .date {
+    background-color: #f1d00a;
+}
+
+.rt-owl-post-2 .single-item .single-item-content .overly .class-slider-ul-child li:first-child,
+.rt-owl-post-2 .single-item-content .date {
+    background-color: #f1d00a;
+}
+.rt-owl-post-2 .single-item .details a {
+    border-color: #f1d00a;
+}
+
+.rt-owl-post-3 .single-item .single-item-content h3 a:hover {
+    color: #f1d00a;
+}
+.rt-owl-post-3 .single-item-meta .date {
+    background-color: #f1d00a;
+}
+
+.rt-post-grid .single-item .rt-date {
+    background-color: #f1d00a;
+}
+
+.rt-vc-post-list .rtin-item .rtin-right .rtin-date {
+    color: #f1d00a;
+}
+
+.rt-owl-team-1 .vc-overly ul li a {
+    border-color: #f1d00a;
+}
+.rt-owl-team-1 .vc-overly ul li a:hover,
+.rt-owl-team-1 .vc-team-meta {
+    background-color: #f1d00a;
+}
+
+.rt-owl-team-2 .vc-team-meta .name {
+    background-color: #f1d00a;
+}
+.rt-owl-team-2 .vc-item .vc-overly {
+    background-color: rgba(241, 208, 10, 0.8);
+}
+
+.rt-owl-team-3 .vc-item .vc-overly {
+	background-color: rgba(241, 208, 10, 0.8);
+}
+
+.rt-owl-team-4 .vc-item:hover .name {
+    color: #f1d00a;
+}
+
+.rt-team-grid-1 .vc-overly ul li a {
+    border-color: #f1d00a;
+}
+.rt-team-grid-1 .vc-overly ul li a:hover,
+.rt-team-grid-1 .vc-meta {
+    background-color: #f1d00a;
+}
+
+.rt-owl-class-1 .single-item .single-item-content .overly .class-slider-ul-child li:first-child,
+.rt-owl-class-1 .single-item:hover .single-item-meta {
+    background-color: #f1d00a;
+}
+.rt-owl-class-1 .single-item .single-item-meta .author .fa {
+    color: #f1d00a;
+}
+
+.rt-owl-class-2 .single-item .single-item-content .overly .class-slider-ul-child li:first-child {
+    background-color: #f1d00a;
+}
+.rt-owl-class-2 .single-item:hover .single-item-meta .author .fa {
+    color: #f1d00a;
+}
+.rt-owl-class-2 .single-item .single-item-content::after {
+    background-color: rgba(241, 208, 10, 0.8);
+}
+
+.rt-class-grid-1 .vc-item .vc-overly .vc-grid-ul-child li:first-child,
+.rt-class-grid-1 .vc-overly ul li a:hover,
+.rt-class-grid-1 .vc-item:hover a.vc-meta {
+    background-color: #f1d00a;
+}
+.rt-class-grid-1 .vc-overly ul li a {
+    border: #f1d00a;
+}
+.rt-class-grid-1 a.vc-meta {
+    color: #f1d00a;
+}
+
+.rt-class-grid-2 .single-item .single-item-content::after {
+    background-color: rgba(241, 208, 10, 0.8);
+}
+.rt-class-grid-2 .single-item .single-item-meta h3 a {
+    color: #f1d00a;
+}
+
+.rt-class-grid-nopag-2 .rtin-content h3::after,
+.rt-class-grid-nopag-2 .rtin-btn a:hover {
+    background-color: #f1d00a;
+}
+.rt-class-grid-nopag-2 .rtin-btn a {
+    border-color: #f1d00a;
+}
+
+.rt-owl-testimonial-1 .rt-vc-item .rt-vc-content h3:after {
+    background-color: #f1d00a;
+}
+
+.rt-vc-testimonial-3.rtin-light .rtin-title::after {
+    background-color: #f1d00a;
+}
+
+.rt-info-text-1 i,
+.rt-info-text-1 .media-heading a:hover {
+    color: #f1d00a;
+}
+.rt-info-text-1 .rt-separator {
+    background-color: #f1d00a;
+}
+
+.rt-info-text-2 .media-heading a:hover {
+    color: #f1d00a;
+}
+.rt-info-text-2 i,
+.rt-info-text-2 .media-heading::after {
+    background-color: #f1d00a;
+}
+.rt-info-text-2 .rt-separator {
+    background-color: #f1d00a;
+}
+
+.rt-info-text-3 i,
+.rt-info-text-3 .media-heading a:hover {
+    color: #f1d00a;
+}
+.rt-info-text-3 .media-heading::after {
+    background-color: #f1d00a;
+}
+.rt-info-text-3 .rt-separator {
+    background-color: #f1d00a;
+}
+
+.rt-class-schedule-1,
+.rt-class-schedule-1.schedule-no-background .class-schedule-tab ul,
+.rt-class-schedule-1.schedule-no-background .nav-tabs li a.active,
+.rt-class-schedule-1.schedule-no-background .nav-tabs li a.active:hover,
+.rt-class-schedule-1.schedule-no-background .nav-tabs li a:hover {
+    background-color: #f1d00a;
+}
+
+.rt-owl-upcoming-1 .rt-heading-left,
+.rt-owl-upcoming-1 .rt-heading-right {
+    background-color: #f1d00a;
+}
+.rt-owl-upcoming-1 .rt-meta i {
+    color: #f1d00a;
+}
+
+.rt-routine .nav-tabs li.active a,
+.rt-routine .nav-tabs li.active a:hover,
+.rt-routine .nav-tabs li a:hover,
+.rt-routine.rt-light .nav-tabs li.active a,
+.rt-routine.rt-light .nav-tabs li.active a:hover,
+.rt-routine.rt-light .nav-tabs li a:hover,
+.rt-routine .rt-col-title > div,
+.rt-routine.rt-light .rt-item {
+    background-color: #f1d00a;
+}
+.rt-routine .rt-item-title {
+    color: #f1d00a;
+}
+.rt-routine::-webkit-scrollbar-thumb {
+    border-color: #f1d00a;
+}
+
+.rt-routine-2 .rt-item {
+    background-color: #f1d00a;
+}
+
+.rt-cta-1.default {
+    background-color: #f1d00a;
+}
+
+.rt-cta-signup-1 .rt-right .rt-right-content a.rt-button {
+    background-color: #f1d00a;
+}
+
+.rt-cta-discount-1 .rt-content .rt-button {
+    border-color: #f1d00a;
+}
+.rt-cta-discount-1 .rt-button:hover,
+.rt-cta-discount-1.rtin-style2 .rt-content .rt-button {
+    background-color: #f1d00a;
+}
+
+.rt-vc-intro.rtin-light .rtin-title {
+    color: #f1d00a;
+}
+.rt-vc-intro.rtin-light .rtin-title-area:after {
+    background-color: #f1d00a;
+}
+.rt-vc-intro.rtin-light .rtin-socials a,
+.rt-vc-intro.rtin-light a.rtin-btn {
+    background-color: #f1d00a;
+    border-color: #f1d00a;
+}
+
+.rt-about-1 .rt-left a.rt-button {
+	background-color: #f1d00a;
+}
+
+.rt-about-3 a.rt-button {
+	background-color: #f1d00a;
+}
+
+.rt-pricing-box-1 .rt-price {
+    color: #f1d00a;
+}
+.rt-pricing-box-1 .rt-btn a {
+    border-color: #f1d00a;
+}
+.rt-pricing-box-1 .rt-btn a:hover {
+    background-color: #f1d00a;
+}
+
+.rt-vc-pricing-box-2 .rtin-right {
+    background-color: #f1d00a;
+}
+
+.rt-counter-1 .rt-left .fa {
+    background-color: #f1d00a;
+}
+
+.rt-counter-2 .rt-icon .fa {
+    color: #f1d00a;
+}
+
+.rt-vc-skills .progress .progress-bar {
+    background-color: #f1d00a;
+}
+
+.rt-gallery-1 .rt-gallery-box .rt-gallery-content a i {
+    color: #f1d00a;
+}
+.rt-gallery-1 .rt-gallery-box .rt-gallery-content a:hover,
+.rt-gallery-1 .rt-gallery-tab a:hover,
+.rt-gallery-1 .rt-gallery-tab .current {
+    background-color: #f1d00a;
+}
+.rt-gallery-1 .rt-gallery-tab a,
+.rt-gallery-1 .rt-gallery-tab a:hover,
+.rt-gallery-1 .rt-gallery-tab .current {
+    border-color: #f1d00a;
+}
+
+.fitness-col::after {
+    background-color: #f1d00a;
+}
+
+.rt-bmi-calculator .rt-bmi-submit:hover {
+    background-color: #f1d00a;
+}
+.rt-bmi-calculator .bmi-chart th,
+.rt-bmi-calculator .bmi-chart td {
+    background-color: rgba(241, 208, 10,.9);
+}
+
+.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-title > a:hover,
+.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-title > a {
+    background-color: #f1d00a !important;
+    border-color: #f1d00a !important;
+}body{
+   margin: 0 auto;
+}

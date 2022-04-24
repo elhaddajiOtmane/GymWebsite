@@ -58,7 +58,7 @@
                     <div class="card card-cascade narrower">
                       <div class="card-body card-body-cascade text-center">
                         <div id="map-container-google-9" class="z-depth-1-half map-container-5" style="height: 300px">
-                          <iframe src="https://maps.google.com/maps?q=Mongoldoi&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                          <iframe src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly" frameborder="0"
                             style="border:0" allowfullscreen></iframe>
                         </div>
                       </div>
