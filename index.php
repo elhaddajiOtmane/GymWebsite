@@ -1,42 +1,13 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php include 'header.php'; ?>
 
-<head>
-
-
-
-
-
-
-
-
-    <!--  -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <?php include 'header.php'; ?>
-
-    <script src="https://kit.fontawesome.com/2dfceedea2.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/2dfceedea2.js" crossorigin="anonymous"></script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
-    </style>
+<script src="https://kit.fontawesome.com/2dfceedea2.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="./assets/css/fontawesome.min.css">
+<link rel="stylesheet" href="css/index.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+<script src="https://kit.fontawesome.com/2dfceedea2.js" crossorigin="anonymous"></script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+</style>
 </head>
 
 <body style=" font-family: 'Nunito', sans-serif;font-size:1rem;">
@@ -176,65 +147,62 @@
                 </p>
                 <a href="#" style="margin-left: 200px;"><button class="btn btn-warning">See More</button></a>
             </div>
-        </div></section>
-        <div class="container-fluid mt-5">
+        </div>
+    </section>
+    <div class="container-fluid mt-5">
         <div class="row">
-            <div data-vc-full-width="true" data-vc-full-width-init="true" class="vc_row wpb_row vc_row-fluid vc_custom_1496653202303 vc_row-has-fill" style="position: relative; left: -104.5px; box-sizing: border-box; width: 1349px; padding-left: 104.5px; padding-right: 104.5px;">
-                <div class="wpb_column vc_column_container vc_col-sm-12">
-                    <div class="vc_column-inner">
-                        <div class="wpb_wrapper">
-                            <div class="rt-bmi-calculator rt-dark">
-                                <div class="row">
-                                    <div class="col-md-7">
-                                        <div class="rt-left">
-                                            <h3 class="rt-title">CALCULATE YOUR BMI</h3>
-                                            <div class="rt-subtitle">BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. It is widely used as a general indicator of whether a person has a healthy body weight for their height. Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between.</div>
-                                            <form class="rt-bmi-form">
-                                                <div class="rt-bmi-radio">
-                                                    <input id="rt-bmi-metric-2016876180" type="radio" name="rt-bmi-unit" value="metric" checked=""><label for="rt-bmi-metric-2016876180">Metric Units</label><input id="rt-bmi-imperial-2016876180" type="radio" name="rt-bmi-unit" value="imperial"><label for="rt-bmi-imperial-2016876180">Imperial Units</label>
-                                                </div>
-                                                <div class="rt-bmi-fields">
-                                                    <input type="text" class="rt-bmi-fields-metric" name="rt-bmi-weight" placeholder="Weight / kg">
-                                                    <input type="text" class="rt-bmi-fields-metric" name="rt-bmi-height" placeholder="Height / cm">
-                                                    <input type="text" class="rt-bmi-fields-imperial" name="rt-bmi-pound" placeholder="Weight / lbs" style="display:none;">
-                                                    <input type="text" class="rt-bmi-fields-imperial" name="rt-bmi-feet" placeholder="Height / feet" style="display:none;">
-                                                    <input type="text" class="rt-bmi-fields-imperial" name="rt-bmi-inch" placeholder="Height / inch" style="display:none;">
-                                                </div>
-                                                <input type="submit" class="rt-bmi-submit" value="CALCULATE">
-                                                <div class="rt-bmi-result" style="display:none;" data-chart="[[&quot;Below 18.5&quot;,&quot;Underweight&quot;],[&quot;18.5 - 24.9&quot;,&quot;Normal&quot;],[&quot;25 - 29.9&quot;,&quot;Overweight&quot;],[&quot;30 and Above&quot;,&quot;Obese&quot;]]">Your BMI is: <span class="rt-bmi-val"></span>, and weight status is: <span class="rt-bmi-status"></span></div>
-                                                <div class="rt-bmi-error" data-emptymsg="Error: One or more fields are empty" data-numbermsg="Error: All field values must be a number"></div>
-                                            </form>
-                                        </div>
+
+
+            <div class="img mt-5">
+                <div class="rt-bmi-calculator rt-dark ">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="rt-left">
+                                <h3 class="rt-title">CALCULATE YOUR BMI</h3>
+                                <div class="rt-subtitle">BMI is a measurement of a person's leanness or corpulence based on their height and weight, and is intended to quantify tissue mass. It is widely used as a general indicator of whether a person has a healthy body weight for their height. Specifically, the value obtained from the calculation of BMI is used to categorize whether a person is underweight, normal weight, overweight, or obese depending on what range the value falls between.</div>
+                                <form class="rt-bmi-form">
+                                    <div class="rt-bmi-radio">
+                                        <input id="rt-bmi-metric-2016876180" type="radio" name="rt-bmi-unit" value="metric" checked=""><label for="rt-bmi-metric-2016876180">Metric Units</label><input id="rt-bmi-imperial-2016876180" type="radio" name="rt-bmi-unit" value="imperial"><label for="rt-bmi-imperial-2016876180">Imperial Units</label>
                                     </div>
-                                    <div class="col-md-5">
-                                        <div class="rt-right">
-                                            <table class="bmi-chart">
-                                                <tbody>
-                                                    <tr>
-                                                        <th>BMI</th>
-                                                        <th>Weight Status</th>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Below 18.5</td>
-                                                        <td>Underweight</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>18.5 - 24.9</td>
-                                                        <td>Normal</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>25 - 29.9</td>
-                                                        <td>Overweight</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>30 and Above</td>
-                                                        <td>Obese</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                    <div class="rt-bmi-fields">
+                                        <input type="text" class="mt-5 rt-bmi-fields-metric" name="rt-bmi-weight" placeholder="Weight / kg">
+                                        <input type="text" class="rt-bmi-fields-metric" name="rt-bmi-height" placeholder="Height / cm">
+                                        <input type="text" class="rt-bmi-fields-imperial" name="rt-bmi-pound" placeholder="Weight / lbs" style="display:none;">
+                                        <input type="text" class="rt-bmi-fields-imperial" name="rt-bmi-feet" placeholder="Height / feet" style="display:none;">
+                                        <input type="text" class="rt-bmi-fields-imperial" name="rt-bmi-inch" placeholder="Height / inch" style="display:none;">
                                     </div>
-                                </div>
+                                    <input type="submit" class="rt-bmi-submit" value="CALCULATE">
+                                    <div class="rt-bmi-result" style="display:none;" data-chart="[[&quot;Below 18.5&quot;,&quot;Underweight&quot;],[&quot;18.5 - 24.9&quot;,&quot;Normal&quot;],[&quot;25 - 29.9&quot;,&quot;Overweight&quot;],[&quot;30 and Above&quot;,&quot;Obese&quot;]]">Your BMI is: <span class="rt-bmi-val"></span>, and weight status is: <span class="rt-bmi-status"></span></div>
+                                    <div class="rt-bmi-error" data-emptymsg="Error: One or more fields are empty" data-numbermsg="Error: All field values must be a number"></div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="rt-right">
+                                <table class="bmi-chart table  mt-5 tb">
+                                    <tbody>
+                                        <tr>
+                                            <th>BMI</th>
+                                            <th>Weight Status</th>
+                                        </tr>
+                                        <tr>
+                                            <td>Below 18.5</td>
+                                            <td>Underweight</td>
+                                        </tr>
+                                        <tr>
+                                            <td>18.5 - 24.9</td>
+                                            <td>Normal</td>
+                                        </tr>
+                                        <tr>
+                                            <td>25 - 29.9</td>
+                                            <td>Overweight</td>
+                                        </tr>
+                                        <tr>
+                                            <td>30 and Above</td>
+                                            <td>Obese</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
@@ -249,12 +217,12 @@
             </div>
         </div>
 
-    <br>
-    <br>
+        <br>
+        <br>
 
 
 
-</div>
+    </div>
 
     <?php include 'footer.php'; ?>
 

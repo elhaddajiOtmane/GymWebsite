@@ -1,0 +1,19 @@
+:root{
+    --primary:#fcc107;}
+
+.img{
+
+    height: 100vh;
+    background-image: url("../images/bmi.jpg");
+    background-size: cover;
+  
+   
+}
+.tb{
+    background-color:var(--primary);
+    padding: 30px; 
+    border-radius: 10px;  
+    opacity: 90%;
+    position: relative;
+    right:3vw;
+}

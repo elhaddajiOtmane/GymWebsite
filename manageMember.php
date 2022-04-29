@@ -1,3 +1,13 @@
+<?php
+include "connection.php";
+session_start();
+if(!isset($_SESSION["email"])){
+    header("Location: admindashboard.php");
+}else{
+
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -37,7 +47,7 @@
                        <th>Contact</th>
                        <th>Address</th>
                        <th>Current_Address</th>
-                       <th>adhar</th>
+                       <th>price</th>
                               
                        <th>Delete</th>
                     </tr>
@@ -86,3 +96,6 @@
     
 </body>
 </html>
+<?php
+}
+?>
