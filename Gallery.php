@@ -35,7 +35,7 @@
 
                     <div class="col-lg-4 mb-4 mb-lg-0">
                         <img src="images/image3.jpg"
-                            class="w-100 shadow-1-strong rounded mb-4" alt="" />
+                            class="w-100 shadow-1-strong rounded mb-4 gty" alt="" />
 
                         <img src="images/image4.jpg"
                             class="w-100 shadow-1-strong rounded mb-4" alt="" />
