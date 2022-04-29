@@ -21,7 +21,7 @@
             <div class="col-sm-9 col-md-9" style="background-color: rgb(120, 129, 102); height: 50px;">
                 <marquee width="100%" direction="left">
                     <p style="color: #fff; font-weight: 600; padding-top: 10px;"> <?php
-                                                                                    include 'connection.php';
+                                                                                    include './inc/connection.php';
 
                                                                                     $selectquery = "select * from notice";
                                                                                     $query = mysqli_query($conn, $selectquery);

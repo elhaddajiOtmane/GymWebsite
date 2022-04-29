@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="validation.js"></script>
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
     <style>
         #label1{
             font-weight: 600;
@@ -14,7 +14,7 @@
     
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include '../navbar.php'; ?>
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
@@ -41,8 +41,9 @@
                             <select class="form-select" aria-label="Default select example" id="name" name="name">
                                  <option value=""disabled selected>----Choose---</option>
                                     <?php 
-                                    include 'connection.php';
+                                    include './inc/connection.php';
                                     $sql= "SELECT * FROM registrationmember";
+                                    print_r($sql);
                                     $results=mysqli_query($conn,$sql);
                                     if(!$results)
                                     {
@@ -101,7 +102,7 @@
 </body>
 </html>
 <?php
-     include 'connection.php';
+     include './inc/connection.php';
 
      if(isset($_POST['submit'])){
  

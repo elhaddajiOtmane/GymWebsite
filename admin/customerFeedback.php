@@ -7,7 +7,7 @@
     <?php include 'header.php'; ?>
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include 'navbar_admin.php'; ?>
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
@@ -39,7 +39,7 @@
         
                     <?php
                     
-                    include 'connection.php';
+                    include '../inc/connection.php';
                     
                     
                     $selectquery = "SELECT * FROM `customer_feedback`";

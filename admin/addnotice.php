@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="css/admindashborad.css">
     <script src="validation.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
     
 </head>
 <body>
     <!--navbar-->
     
-      <?php include 'navbar.php';?>
+      <?php include './navbar_admin.php';?>
     
     <!--navbar ends here-->
     <nav aria-label="breadcrumb">
@@ -64,7 +64,7 @@
 
       
 <?php
-  include 'connection.php';
+  include '../inc/connection.php';
   if(isset($_POST['submit'])){
 
     $notice = $_POST['notice'];
