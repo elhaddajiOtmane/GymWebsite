@@ -1,0 +1,21 @@
+{
+    "name": "Image Gallery built with HTML, CSS, and JavaScript",
+    "short_name": "Image Gallery",
+    "start_url": "https://connorocampo.github.io/image-gallery/",
+    "scope": "./",
+    "icons": [
+      {
+        "src": "https://raw.githubusercontent.com/connorocampo/image-gallery/master/images/favicon.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "https://raw.githubusercontent.com/connorocampo/image-gallery/master/images/favicon.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "theme_color": "#ffd31d",
+    "background_color": "#333",
+    "display": "standalone"
+  }
