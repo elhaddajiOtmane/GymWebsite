@@ -17,7 +17,7 @@ if (isset($_POST['submit'])) {
     
     if ($row > 0) {
         $_SESSION['email'] = $_POST['email'];
-        header("Location: admindashboard.php");
+        header("Location: admin/admindashboard.php");
     } else {
         `<script> function myFunction() {
             var element = document.getElementById("eror");
@@ -26,7 +26,7 @@ if (isset($_POST['submit'])) {
         }
     }
     if(isset($_SESSION['email'])){
-    header("Location: admindashboard.php");
+    header("Location: admin/admindashboard.php");
 }
 ?>
 <!DOCTYPE html>
