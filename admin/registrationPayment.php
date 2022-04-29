@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include 'header.php'; ?>
+    <?php include '../header.php'; ?>
     <style>
         #label1{
             font-weight: 600;
@@ -13,7 +13,7 @@
     
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include 'navbar_admin.php'; ?>
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
