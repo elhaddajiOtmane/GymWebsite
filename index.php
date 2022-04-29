@@ -4,7 +4,6 @@
 <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
 <link rel="stylesheet" href="css/index.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-<script src="https://kit.fontawesome.com/2dfceedea2.js" crossorigin="anonymous"></script>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 </style>
@@ -20,18 +19,19 @@
             </div>
             <div class="col-sm-9 col-md-9" style="background-color: rgb(120, 129, 102); height: 50px;">
                 <marquee width="100%" direction="left">
-                    <p style="color: #fff; font-weight: 600; padding-top: 10px;"> <?php
-                                                                                    include './inc/connection.php';
+                    <p style="color: #fff; font-weight: 600; padding-top: 10px;">
+                        <?php
+                        include './inc/connection.php';
 
-                                                                                    $selectquery = "select * from notice";
-                                                                                    $query = mysqli_query($conn, $selectquery);
-                                                                                    $num = mysqli_num_rows($query);
-                                                                                    while ($res = mysqli_fetch_array($query)) {
-                                                                                        echo $res['notice'];
-                                                                                    }
+                        $selectquery = "select * from notice";
+                        $query = mysqli_query($conn, $selectquery);
+                        $num = mysqli_num_rows($query);
+                        while ($res = mysqli_fetch_array($query)) {
+                            echo $res['notice'];
+                        }
 
 
-                                                                                    ?></p>
+                        ?></p>
                 </marquee>
             </div>
         </div>

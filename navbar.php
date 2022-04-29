@@ -18,7 +18,7 @@
     <!-- ------------navbar-------- -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid float-left">
-            <h1 class="brand p-3">IZDIHAR <span style="color:crimson; font-size: 40pt;"><i>G</i></span>ym</h1>
+           <h1 class="brand p-3"> <a href="index.php">IZDIHAR </a><span style="color:crimson; font-size: 40pt;"><i>G</i></span>ym</h1>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
