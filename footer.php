@@ -60,8 +60,8 @@
             </div>
             <div class="col-md-4 abcde">
                 <h4>Contact Info</h4>
-                <p><i class="far fa-envelope" style="padding-right: 10px;"></i>Email : Homennath444@gmail,com</p>
-                <p><i class="fas fa-phone-alt" style="padding-right: 10px;"></i>Call : +91 9857643565</p>
+                <p><i class="far fa-envelope" style="padding-right: 10px;"></i>Email : otmane@gmail,com</p>
+                <p><i class="fas fa-phone-alt" style="padding-right: 10px;"></i>Call : +212 613 321 184</p>
             </div>
             <div class="col-md-3 abcde"></div>
         </div>
