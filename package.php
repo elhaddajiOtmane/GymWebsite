@@ -12,8 +12,8 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
     </style>
-    <script src="validation.js"></script>
-    <?php include 'header.php'; ?>
+    <script src="./js/validation.js"></script>
+    <?php include 'blad/header.php'; ?>
 </head>
 
 <body style="font-family: 'Nunito', sans-serif;">
