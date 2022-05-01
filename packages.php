@@ -15,7 +15,7 @@
                <div style="width: 90%; border: 2px solid green; margin: auto; height: 400px; margin-top: 30px; border-radius: 30px;">
                     <h5 style="text-align:center; padding-top:40px">Durations:
                     <?php
-                    include 'connection.php';
+                    require 'inc/connection.php';
                 
                     $selectquery = "select * from package where name = '3 Months'";
                     $query = mysqli_query($conn, $selectquery);
@@ -70,7 +70,6 @@
 
                     <h5 style="text-align:center; padding-top:40px">Durations:
                         <?php
-                        include 'connection.php';
                     
                         $selectquery = "select * from package where id = 4";
                         $query = mysqli_query($conn, $selectquery);
@@ -126,7 +125,7 @@
                 <div style="width: 90%; border: 2px solid green; margin: auto; height: 400px; margin-top: 30px; border-radius: 30px;">
                     <h5 style="text-align:center; padding-top:40px">Durations:
                         <?php
-                        include 'connection.php';
+
                     
                         $selectquery = "select * from package where id = 5";
                         $query = mysqli_query($conn, $selectquery);
