@@ -224,7 +224,7 @@
 
     </div>
 
-    <?php include 'footer.php'; ?>
+    <?php require 'blad/footer.php'; ?>
 
 
 

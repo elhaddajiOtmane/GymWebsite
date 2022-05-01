@@ -46,6 +46,6 @@
 
 <?php
 
-include 'footer.php';
+require 'blad/footer.php';
 
 ?>
