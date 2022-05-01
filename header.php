@@ -9,6 +9,7 @@
     <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <link rel="icon" type="image/png" href="https://raw.githubusercontent.com/connorocampo/image-gallery/master/images/favicon.png" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.4.10/dist/sweetalert2.all.min.js"></script>
     <title> Gym</title>
 </head>
 

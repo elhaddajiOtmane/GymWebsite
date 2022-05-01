@@ -8,11 +8,19 @@ function joinMemberValidation()
 
     if(name == "" || name == null)
     {
-        alert("Name is empty");
+        Swal.fire(
+            'Nome is empty?',
+            'Please entre your name?',
+            'question'
+          )
         return false;
     }
     else if(email == "" || email == null){
-        alert("Email is empty");
+        Swal.fire(
+            'Nome is empty?',
+            'Please entre your name?',
+            'question'
+          )
         return false;
     }
     else if(phone == "" || phone == null){
@@ -32,7 +40,11 @@ function feedbackValidation(){
     var feedback = document.getElementById("feedback").value;
 
     if(name == "" || name == null){
-        alert("Name is empty");
+        Swal.fire(
+            'Nome is empty?',
+            'Please entre your name?',
+            'question'
+          )
         return false;
     }
     else if(phone == "" || phone == null)
