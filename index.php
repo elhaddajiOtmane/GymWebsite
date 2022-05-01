@@ -1,5 +1,4 @@
-<?php include 'blad/header.php'; ?>
-
+<?php include 'blad/navbar.php';?>
 <script src="https://kit.fontawesome.com/2dfceedea2.js" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="./assets/css/fontawesome.min.css">
 <link rel="stylesheet" href="css/index.css">
@@ -10,7 +9,6 @@
 </head>
 
 <body style=" font-family: 'Nunito', sans-serif;font-size:1rem;">
-    <?php include 'blad/header.php'; ?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-3 text-center" style="height: 50px; background-color: rgb(129, 201, 129);">

@@ -13,12 +13,10 @@
         @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
     </style>
     <script src="./js/validation.js"></script>
-    <?php include 'blad/header.php'; ?>
 </head>
-
+<?php include 'blad/navbar.php';?>
 <body style="font-family: 'Nunito', sans-serif;">
     <header>
-        <?php include 'blad/header.php';?>
     </header>
     <div class="container my-content pt-3">
         <h1 style="text-align: center"><i class="far fa-box-full"></i></h1>
@@ -65,7 +63,7 @@
 </html>
 <?php
 
-    include 'connection.php';
+    include 'inc/connection.php';
 
     if(isset($_POST['submit'])){
 

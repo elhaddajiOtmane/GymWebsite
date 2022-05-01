@@ -13,7 +13,7 @@
 <body>
 
 
-  <?php include 'blad/header.php';?>
+  <?php include 'blad/navbar.php';?>
 
 <nav aria-label="breadcrumb">
         <ol class="col-12 breadcrumb rounded-0">
