@@ -88,7 +88,7 @@
 
 
 <?php 
-    include 'connection.php';
+    require 'inc/connection.php';
     if(isset($_POST['submit']))
     {
 
