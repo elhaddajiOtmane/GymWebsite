@@ -10,7 +10,7 @@
 </head>
 
 <body style=" font-family: 'Nunito', sans-serif;font-size:1rem;">
-    <?php include 'navbar.php'; ?>
+    <?php include 'blad/header.php'; ?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3 col-md-3 text-center" style="height: 50px; background-color: rgb(129, 201, 129);">

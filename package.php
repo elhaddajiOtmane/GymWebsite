@@ -18,7 +18,7 @@
 
 <body style="font-family: 'Nunito', sans-serif;">
     <header>
-        <?php include 'navbar.php';?>
+        <?php include 'blad/header.php';?>
     </header>
     <div class="container my-content pt-3">
         <h1 style="text-align: center"><i class="far fa-box-full"></i></h1>

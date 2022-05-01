@@ -41,7 +41,7 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include 'blad/header.php'; ?>
     <div class="container">
         <div class="row">
             <div class="col-md-4 firstDiv">

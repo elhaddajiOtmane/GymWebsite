@@ -1,48 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        .abc{
-            background-color: rgb(65, 60, 60);
-        
-        }
-        .abcde{
-            /* border: 2px solid red; */
-            padding-top: 20px;
-            padding-left: 20px;
-           
-            font-size: 15px;
 
-        }
-        .abcde h4{
-            color: #fff;
-            padding-top: 25px;
-            padding-bottom: 30px;
-        }
-        .abcde a{
-            text-decoration: none;
-            color: #fff;
-            padding-bottom: 30px;
-           
-        }
-        .abcde p{
-            color: #fff;
-        }
-        .last1{
-            height: 200px;
-        }
-        .links1{
-            padding-top: 40px;
-
-        }
-       
-        
-    </style>
-    
-</head>
 <body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"

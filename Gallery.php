@@ -21,7 +21,7 @@
     </head>
 
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include 'blad/header.php'; ?>
 
     <div class="container">
         <h1>Image Gallery</h1>

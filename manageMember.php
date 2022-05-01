@@ -17,7 +17,7 @@ if(!isset($_SESSION["email"])){
     <?php include 'blad/header.php'; ?>
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include 'blad/header.php'; ?>
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
