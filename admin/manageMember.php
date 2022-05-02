@@ -1,5 +1,5 @@
 <?php
-include "connection.php";
+include "../inc/connection.php";
 session_start();
 if(!isset($_SESSION["email"])){
     header("Location: admindashboard.php");
@@ -8,7 +8,7 @@ if(!isset($_SESSION["email"])){
 
 
 ?>
-  <?php include 'blad/navbar.php';?>
+  <?php include './blad/navbarAdmin.php';?>
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
@@ -44,8 +44,7 @@ if(!isset($_SESSION["email"])){
                     </tr>
         
                     <?php
-                    
-                    include 'connection.php';
+
                     
                     
                     $selectquery = "select * from registrationmember";
@@ -67,7 +66,7 @@ if(!isset($_SESSION["email"])){
                         
                         
                        
-                        <td><a href="deleteCustomer.php?id=<?php echo $res['id']; ?>"><i class="fas fa-trash-alt" style="color:red"></i></td> 
+                        <td> <a href="deleteCustomer.php?id=<?php echo $res['id']; ?>"><i class="fas fa-trash-alt" style="color:red"></i><?php echo $res['id']; ?></a></td> 
                         
                     </tr>
                         
