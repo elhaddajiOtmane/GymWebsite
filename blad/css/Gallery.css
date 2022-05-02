@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.heading1 h4{
+    color: rgb(243, 135, 11);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.heading1 h4 i{
+    color: rgb(2, 129, 30);
+    font-size: 15px;
+    
+}

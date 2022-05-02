@@ -32,8 +32,7 @@
                         <a class="nav-link active" id="nav-links" aria-current="page" href="joinMember.php"><i class="fas fa-user" style="padding-right: 5px;"></i>Join</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" id="nav-links" aria-current="page" href="loginPage.php
-                                class="fas fa-sign-in-alt" style="padding-right: 5px;"></i>Admin Login</a>
+                    <a class="nav-link active" id="nav-links" aria-current="page" href="../loginPage.php" class="fas fa-sign-in-alt" style="padding-right: 5px;"></i>Admin Login</a>
                     </li>
 
 

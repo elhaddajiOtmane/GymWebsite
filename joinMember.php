@@ -105,29 +105,19 @@ if (isset($_POST['submit'])) {
   $res = mysqli_query($conn, $sql);
 
   if ($res) {
-?>
-    <script>
-      Swal.fire(
-        'Good job!',
-        'Your Record is not Submitted!',
-        'success'
-      )
-    </script>
-  <?php
-  } else {
+    print_r(" <script>
+    Swal.fire(
+      'Good job!',
+      'Your Record is Submitted!',
+      'success'
+    )
+  </script>");
+
+  }}
   ?>
-    <script>
-            Swal.fire(
-        'Good job!',
-        'Ohh No!!!!  Your Record is not Submitted',
-        'success'
-      )
-    </script>
+
+
 <?php
-  }
-}
-
-
 require 'blad/footer.php';
 
 ?>
