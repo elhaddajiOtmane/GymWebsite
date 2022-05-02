@@ -58,44 +58,26 @@ if (isset($_SESSION['email'])) {
             </div>
         </div>
         <div class="slider">
-            <div>photo1 <div class="card" style="width: 18rem;">
-            <img class="card-img-top" src="" alt="Card image cap">
-            <div class="card-body">
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            </div>
-            </div>
-            
-            0$</div>
+            <div>photo1 </div>
             <div>photo3</div>
             <div>photo3</div>
         </div>
         <script>
-            $('.slider').slick({
-  centerMode: true,
-  centerPadding: '60px',
-  slidesToShow: 3,
-  responsive: [
-    {
-      breakpoint: 768,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 3
-      }
-    },
-    {
-      breakpoint: 480,
-      settings: {
-        arrows: false,
-        centerMode: true,
-        centerPadding: '40px',
-        slidesToShow: 1
-      }
-    }
-  ]
+ $('.slider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: false,
+  fade: true,
+  asNavFor: '.slider-nav'
 });
-	
+$('.slider-nav').slick({
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  asNavFor: '.slider-for',
+  dots: true,
+  centerMode: true,
+  focusOnSelect: true
+});
         </script>
         </body>
 
