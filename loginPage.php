@@ -55,16 +55,12 @@ if (isset($_SESSION['email'])) {
                         </div>
                         <div id="eror" class="" role="alert"></div>
                 </form>
-
             </div>
-
         </div>
         <div class="slider">
             <div>photo1</div>
             <div>photo3</div>
             <div>photo3</div>
         </div>
-
-
         </body>
         </html>
