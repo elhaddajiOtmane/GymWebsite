@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <?php include 'header.php'; ?>
 
-</head>
-
-<body>
-
-    <!-- ------------navbar-------- -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid float-left">
            <h1 class="brand p-3"> <a href="index.php">IZDIHAR </a><span style="color:crimson; font-size: 40pt;"><i>G</i></span>ym</h1>
@@ -56,11 +45,3 @@
     </nav>
 
 
-
-
-
-    <!-- JavaScript Bundle with Popper -->
-    
-</body>
-
-</html>
