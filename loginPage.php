@@ -63,4 +63,5 @@ if (isset($_SESSION['email'])) {
             <div>photo3</div>
         </div>
         </body>
+
         </html>
