@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <?php include 'header.php'; ?>
+    <?php include './blad/headerAdmin.php'; ?>
 </head>
 <body>
-    <?php include 'navbar.php'; ?>
+    <?php include './blad/navbarAdmin.php'; ?>
     <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
@@ -40,7 +40,7 @@
         
                     <?php
                     
-                    include 'connection.php';
+                    include '../inc/connection.php';
                     
                     
                     $selectquery = "select * from payment";

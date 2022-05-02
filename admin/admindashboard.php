@@ -13,7 +13,7 @@
   <body>
      <!--navbar-->
  
-  <?php include './blad/navbar.php';?>
+  <?php include './blad/navbarAdmin.php';?>
 
   
   <nav aria-label="breadcrumb">

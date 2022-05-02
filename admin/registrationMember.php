@@ -9,7 +9,7 @@
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="./js/validation.js"></script>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-  <?php include '../header.php'; ?>
+  <?php include './blad/headerAdmin.php'; ?>
   <style>
       @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
 </style>
@@ -17,7 +17,7 @@
 <body style="height:120vh">
 <!--Navbaar-->
 
- <?php include 'navbar_admin.php'; ?>
+ <?php include './blad/navbarAdmin.php'; ?>
  <nav aria-label="breadcrumb">
   <ol class="breadcrumb">
     <li class="breadcrumb-item pl-2" aria-current="page"><a href="admindashboard.php">Admin Dashboard</a></li>
