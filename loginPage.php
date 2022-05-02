@@ -58,10 +58,38 @@ if (isset($_SESSION['email'])) {
             </div>
         </div>
         <div class="slider">
-            <div>photo1</div>
+            <div>photo1 </div>
             <div>photo3</div>
             <div>photo3</div>
         </div>
+        <script>
+            $('.slider').slick({
+  centerMode: true,
+  centerPadding: '60px',
+  slidesToShow: 3,
+  responsive: [
+    {
+      breakpoint: 768,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 3
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        arrows: false,
+        centerMode: true,
+        centerPadding: '40px',
+        slidesToShow: 1
+      }
+    }
+  ]
+});
+	
+        </script>
         </body>
 
         </html>
