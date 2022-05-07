@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "localhost",
+				"port": 3308,
+				"driver": "MySQL",
+				"name": "SqlConnection",
+				"database": "gym",
+				"username": "root",
+				"password": "143055920@Aze"
+			}
+		]
+	}
+}
