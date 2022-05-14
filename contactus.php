@@ -39,11 +39,13 @@
             <div class="col-12 col-sm-4 offset-sm-1">
                    <h5>Our Address</h5>
                     <address style="font-size: 100%">
-		              786610, Near River Brahmaputra<br>
-		              BFC road, Mongoldoi,Assam<br>
-		              INDIA<br>
-		              <i class="fa fa-phone"></i>: +91 9090909090<br>
-		              <i class="fa fa-fax"></i>: +91 9898989898<br>
+		              
+                    <br>
+		              
+                    <br>
+		              maroc<br>
+		              <i class="fa fa-phone"></i>: +212 613 321 384<br>
+		              <i class="fa fa-fax"></i>: +212 613 321 384<br>
 		              <i class="fa fa-envelope"></i>:
                         <a href="mailto:mailto:abcGym@gmail.com">abcGym@gmail.com</a>
 		           </address>
